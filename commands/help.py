@@ -15,16 +15,11 @@ class AjudaCog(commands.Cog):
             description += '$poke <nome do pokemon ou número> - Pesquisar pokemon\n'
             description += '$embed <titulo> <descrição> - Envia uma mensagem personalizada no chat\n'
             description += '$usuario <@usuario> - Mostra informações sobre um usuário\n'
-            description += '$citar - Mostra uma citação aleatória\n'
-            description += '$canaldiarias - Define um canal para as citações diárias\n'
-            description += '$piada - Mostra uma piada aleatória (Marcelo é meio estressado e pode acabar te ofendendo)\n'
         else:
             description = '$ajudinha - Apresenta os comandos do seu bot\n'
             description += '$criador - Mostra informações do bot e do criador dele\n'
             description += '$infobot - Apresenta informações sobre o bot e os servidores que ele está\n'
             description += '$poke <nome do pokemon ou número> - Pesquisar pokemon\n'
-            description += '$citar - Mostra uma citação aleatória\n'
-            description += '$piada - Mostra uma piada aleatória (Marcelo é meio estressado e pode acabar te ofendendo)\n'
 
         embed = discord.Embed()
         embed.title = "Lista de Comandos:"
