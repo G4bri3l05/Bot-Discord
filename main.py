@@ -13,6 +13,9 @@ from tasks.erros import erros
 
 load_dotenv()
 
+
+# Para utilizar a varivael de controle crie um arquivo ".env" na mesma pasta que este arquivo e dentro dele adicione a seguinte linha: TOKEN='seu_token'
+# O arquivo ".env" pode ser usado para armazenar todas as suas variaveis de controle.
 DISCORD_TOKEN = os.getenv('TOKEN')
 
 intents = discord.Intents().all()
